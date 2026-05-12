@@ -9,10 +9,39 @@ import Rule67 from "./JSX/Rule67";
 import User1 from "./Components/User1";
 import User2 from "./Components/User2";
 import User3 from "./Components/User3";
+import Parent from "./Props/Parent";
+import Parent1 from "./Props/Parent1";
+import Admin from "./Props/Admin";
+import UserDisplay from "./Props/UserDisplay";
+import UserData from "./Props/UserData";
+import Parentcomponent from "./Props/Parentcomponent";
+import Without from "./State/Without";
+import Counter from "./State/Counter";
+import ElectionData from "./State/ElectionData";
+import CounterWithClass from "./State/CounterWithClass";
+import CounterWithFunction from "./State/CounterWithFunction";
+import ListRendering1 from "./List&Keys/ListRendering1";
+import ListRendering2 from "./List&Keys/ListRendering2";
+import ImageTask from "./List&Keys/ImageTask";
+import ListTask from "./List&Keys/ListTask";
+import InlineEvent from "./EventHandling/InlineEvent";
+import InlineEventFunction from "./EventHandling/InlineEventFunction";
+import ExternalEventHandler from "./EventHandling/ExternalEventHandler";
+import EventWithParemeter from "./EventHandling/EventWithParemeter";
+import PreventDefault from "./EventHandling/PreventDefault";
+import IfElseRendering from "./ConditionalRendering/IfElseRendering";
+import TernaryOperator from "./ConditionalRendering/TernaryOperator";
+import ThemeChanger from "./ConditionalRendering/ThemeChanger";
+import ShortCircuitOperator from "./ConditionalRendering/ShortCircuitOperator";
+import InlineStyling from "./ReactStyling/InlineStyling";
+import Component1 from "./ReactStyling/Component1";
+import Component2 from "./ReactStyling/Component2";
+import TailwindCSS from "./ReactStyling/TailwindCSS";
+import Form1 from "./FormHandling/Form1";
 
 let App =()=>{
     return <div>
-        <h1>App Component</h1>
+        {/* <h1>App Component</h1> */}
        {/* <Demo/> */}
        {/* <User/> */}
        {/* <Rule1/> */}
@@ -21,10 +50,39 @@ let App =()=>{
        {/* <Rule4/> */}
        {/* <Rule5/> */}
        {/* <Rule67/> */}
-       <User1/>
-       <User2/>
-       <User3/>
-
+       {/* <User1/> */}
+       {/* <User2/> */}
+       {/* <User3/> */}
+        {/* <Parent/> */}
+        {/* <Parent1/> */}
+        {/* <Admin/> */}
+        {/* <UserData/> */}
+        {/* <Parentcomponent/> */}
+        {/* <Without/> */}
+        {/* <Counter/> */}
+        {/* <ElectionData/> */}
+        {/* <CounterWithClass/> */}
+        {/* <hr /> */}
+        {/* <CounterWithFunction/> */}
+        {/* <ListRendering1/> */}
+        {/* <ListRendering2/> */}
+        {/* <ImageTask/> */}
+        {/* <ListTask/> */}
+        {/* <InlineEvent/> */}
+        {/* <InlineEventFunction/> */}
+        {/* <ExternalEventHandler/> */}
+        {/* <EventWithParemeter/> */}
+        {/* <PreventDefault/> */}
+        {/* <IfElseRendering/> */}
+        {/* <TernaryOperator/> */}
+        {/* <ThemeChanger/> */}
+        {/* <ShortCircuitOperator/> */}
+        {/* <InlineStyling/> */}
+        {/* <Component1/> */}
+        {/* <hr /> */}
+        {/* <Component2/> */}
+        {/* <TailwindCSS/> */}
+        <Form1/>
     </div>;
 }
 
