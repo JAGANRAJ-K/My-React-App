@@ -38,6 +38,12 @@ import Component1 from "./ReactStyling/Component1";
 import Component2 from "./ReactStyling/Component2";
 import TailwindCSS from "./ReactStyling/TailwindCSS";
 import Form1 from "./FormHandling/Form1";
+import Form2 from "./FormHandling/Form2";
+import Form3 from "./FormHandling/Form3";
+import CheckBoxInput from "./FormHandling/CheckBoxInput";
+import StudentForm from "./FormHandling/StudentForm";
+import FormUncontrol from "./FormHandling/FormUncontrol";
+import ToggleAndNotify from "./ReacticonsAndNotifications/ToggleAndNotify";
 
 let App =()=>{
     return <div>
@@ -82,7 +88,13 @@ let App =()=>{
         {/* <hr /> */}
         {/* <Component2/> */}
         {/* <TailwindCSS/> */}
-        <Form1/>
+        {/* <Form1/> */}
+        {/* <Form2/> */}
+        {/* <Form3/> */}
+        {/* <CheckBoxInput/> */}
+        {/* <StudentForm/> */}
+        {/* <FormUncontrol/> */}
+        <ToggleAndNotify/>
     </div>;
 }
 

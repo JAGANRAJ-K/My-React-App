@@ -1,13 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Form1 = () => {
+    //! state for username
+    const [userName,setUsername]=useState("");
+    //! state for password
+    const [password,setPassword]=useState("");
+
+    //!handleUsername function
+    let handleUsername=(e)=>{
+        // console.log(e.target.value);
+        let {name,value}=e.target;
+        setUsername(value);
+    }
+
+    //!handle Password function
+    let handlePassword=(e)=>{
+        // console.log(e.target.value);
+        let {name,value}=e.target;
+        setPassword(value)
+        
+    }
     //! handleInputChange function
   let handleInputChange = () => {};
 
   //! handleSubmit function
   let handleSubmit = (e) => {
     e.preventDefault();
+    console.log(userName);
+    console.log(password);
     console.log("Form Submitted Successfully✅");
+    setUsername("");
+    setPassword("");
   };
 
   return (
@@ -27,6 +50,9 @@ const Form1 = () => {
           <input
             type="email"
             className="outline-none border border-gray-800 px-3 py-2 rounded-lg w-full"
+            name='userName'
+            value={userName}
+            onChange={handleUsername}
           />
         </div>
 
@@ -37,6 +63,9 @@ const Form1 = () => {
           <input
             type="password"
             className="outline-none border border-gray-800 px-3 py-2 rounded-lg w-full"
+            name='password'
+            value={password}
+            onChange={handlePassword}
           />
         </div>
 
