@@ -44,6 +44,11 @@ import CheckBoxInput from "./FormHandling/CheckBoxInput";
 import StudentForm from "./FormHandling/StudentForm";
 import FormUncontrol from "./FormHandling/FormUncontrol";
 import ToggleAndNotify from "./ReacticonsAndNotifications/ToggleAndNotify";
+import ContextProvider from "./ContextAPI/ContextProvider";
+import ThemeProvider from "./ContextAPI/ThemeProvider";
+import Home from "./ContextAPI/Pages/Home";
+import UseEffect1 from "./UseEffectHook/UseEffect1";
+import UseEffect2 from "./UseEffectHook/UseEffect2";
 
 let App =()=>{
     return <div>
@@ -94,7 +99,13 @@ let App =()=>{
         {/* <CheckBoxInput/> */}
         {/* <StudentForm/> */}
         {/* <FormUncontrol/> */}
-        <ToggleAndNotify/>
+        {/* <ToggleAndNotify/> */}
+        {/* <ContextProvider/> */}
+        {/* <ThemeProvider>
+            <Home/>
+            </ThemeProvider> */}
+        {/* <UseEffect1/> */}
+        <UseEffect2/>
     </div>;
 }
 
