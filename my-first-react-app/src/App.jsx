@@ -49,6 +49,7 @@ import ThemeProvider from "./ContextAPI/ThemeProvider";
 import Home from "./ContextAPI/Pages/Home";
 import UseEffect1 from "./UseEffectHook/UseEffect1";
 import UseEffect2 from "./UseEffectHook/UseEffect2";
+import FetchApi from "./UseEffectHook/FetchApi";
 
 let App =()=>{
     return <div>
@@ -105,7 +106,8 @@ let App =()=>{
             <Home/>
             </ThemeProvider> */}
         {/* <UseEffect1/> */}
-        <UseEffect2/>
+        {/* <UseEffect2/> */}
+        <FetchApi/>
     </div>;
 }
 
